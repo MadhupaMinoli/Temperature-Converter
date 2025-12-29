@@ -17,8 +17,11 @@ const config = {
   },
   incremental: true,
   dashboard: {
-    project: "MadhupaMinoli/Temperature-Converter", // your project name
-    version: "1.0.0",                              // version of this run
+    project: "github.com/MadhupaMinoli/Temperature-Converter", // Full GitHub path
+    version: "main", // Branch name or version tag
+    module: "temperature-converter", // Optional: module name
+    baseUrl: "https://dashboard.stryker-mutator.io/api/reports", // Optional: custom URL
+    reportType: "full" // Optional: "full" (default) or "mutationScore"
   }
 };
 export default config;

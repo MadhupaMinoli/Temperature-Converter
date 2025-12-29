@@ -722,8 +722,9 @@
     },
     "incremental": true,
     "dashboard": {
-      "project": "MadhupaMinoli/Temperature-Converter",
-      "version": "1.0.0",
+      "project": "github.com/MadhupaMinoli/Temperature-Converter",
+      "version": "main",
+      "module": "temperature-converter",
       "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
       "reportType": "full"
     },
