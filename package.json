@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "start": "live-server public"
+    "start": "live-server public",
+    "mutation": "stryker run"
   },
   "keywords": [
     "temperature",
