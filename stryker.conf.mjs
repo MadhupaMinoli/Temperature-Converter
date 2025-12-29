@@ -9,11 +9,12 @@ const config = {
   testRunner_comment:
     "Take a look at https://stryker-mutator.io/docs/stryker-js/jest-runner for information about the jest plugin.",
   coverageAnalysis: "perTest",
-  mutate: ["src/converterFahrenheit.js"],
+ mutate: ["src/**/*.js"],
   thresholds: {
     "high": 80,
     "low": 60,
     "break": 70
-  }
+  },
+  incremental: true,
 };
 export default config;
