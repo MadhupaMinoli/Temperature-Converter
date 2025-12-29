@@ -1,6 +1,9 @@
 class ConverterCelsius {
   convert(fahrenheit) {
-    return ((fahrenheit - 32) * 5) / 9 + 0.1; // small logic change
+    if (fahrenheit === null || fahrenheit === undefined) {
+      throw new Error('Invalid input');
+    }
+    return ((fahrenheit - 32) * 5) / 9; //adding a comment
   }
 }
 
