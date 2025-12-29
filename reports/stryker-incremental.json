@@ -214,10 +214,9 @@
           "id": "9",
           "mutatorName": "StringLiteral",
           "replacement": "\"\"",
-          "status": "NoCoverage",
+          "statusReason": "Ignored because of excluded mutation \"StringLiteral\"",
+          "status": "Ignored",
           "static": false,
-          "killedBy": [],
-          "coveredBy": [],
           "location": {
             "end": {
               "column": 38,
@@ -544,10 +543,9 @@
           "id": "23",
           "mutatorName": "StringLiteral",
           "replacement": "\"\"",
-          "status": "NoCoverage",
+          "statusReason": "Ignored because of excluded mutation \"StringLiteral\"",
+          "status": "Ignored",
           "static": false,
-          "killedBy": [],
-          "coveredBy": [],
           "location": {
             "end": {
               "column": 38,
@@ -710,6 +708,13 @@
       "dashboard"
     ],
     "testRunner": "jest",
+    "mutator": {
+      "excludedMutations": [
+        "StringLiteral",
+        "ArrayDeclaration"
+      ],
+      "plugins": null
+    },
     "testRunner_comment": "Take a look at https://stryker-mutator.io/docs/stryker-js/jest-runner for information about the jest plugin.",
     "coverageAnalysis": "perTest",
     "mutate": [
@@ -753,10 +758,6 @@
     "logLevel": "info",
     "maxConcurrentTestRunners": 9007199254740991,
     "maxTestRunnerReuse": 0,
-    "mutator": {
-      "plugins": null,
-      "excludedMutations": []
-    },
     "plugins": [
       "@stryker-mutator/*"
     ],
